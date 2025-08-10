@@ -21,7 +21,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-mist">
+    <section id="features" className="py-20 bg-gradient-mist">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">

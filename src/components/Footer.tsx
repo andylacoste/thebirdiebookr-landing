@@ -21,39 +21,25 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="font-semibold mb-4 text-lg">Quick Links</h3>
-            <ul className="space-y-3">
-              <li>
-                <Button variant="link" className="text-background/80 hover:text-background p-0 h-auto">
-                  Find Tee Times
-                </Button>
-              </li>
-              <li>
-                <Button variant="link" className="text-background/80 hover:text-background p-0 h-auto">
-                  Set Alerts
-                </Button>
-              </li>
-              <li>
-                <Button variant="link" className="text-background/80 hover:text-background p-0 h-auto">
-                  Golf Courses
-                </Button>
-              </li>
-            </ul>
-          </div>
-
           {/* Account */}
           <div>
             <h3 className="font-semibold mb-4 text-lg">Account</h3>
             <ul className="space-y-3">
               <li>
-                <Button variant="link" className="text-background/80 hover:text-background p-0 h-auto">
+                <Button 
+                  variant="link" 
+                  className="text-background/80 hover:text-background p-0 h-auto"
+                  onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
+                >
                   Log In
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-background/80 hover:text-background p-0 h-auto">
+                <Button 
+                  variant="link" 
+                  className="text-background/80 hover:text-background p-0 h-auto"
+                  onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
+                >
                   Sign Up
                 </Button>
               </li>

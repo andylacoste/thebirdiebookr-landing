@@ -4,21 +4,21 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah M.",
+      name: "Aussie Tom",
       role: "Avid Golfer",
-      content: "Finally, a way to find last-minute tee times! The notifications have saved me so many times when spots open up at my favorite courses.",
+      content: "Finally, a way to find last-minute tee times! I'm never prepared so this app is a life saver.",
       rating: 5
     },
     {
-      name: "Mike T.",
+      name: "Lucas F",
       role: "Weekend Warrior",
-      content: "The Birdie Bookr has completely changed how I book golf. The interface is clean, fast, and I love getting alerts for prime morning slots.",
+      content: "The Birdie Bookr has completely changed how I book golf. Another brilliant app from the Birdie Bookr team.",
       rating: 5
     },
     {
-      name: "Jennifer L.",
+      name: "Brick Bickus",
       role: "Golf Enthusiast",
-      content: "Living in Vancouver, having access to all the courses in one place is amazing. The app is super reliable and has never let me down.",
+      content: "Having access to all the courses in one place is amazing. Whoever made the app is a genius, smartest man alive.",
       rating: 5
     }
   ];
@@ -31,7 +31,7 @@ const Testimonials = () => {
             What Golfers Say
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Join thousands of satisfied golfers who've transformed their booking experience.
+            Join satisfied golfers who've transformed their booking experience.
           </p>
         </div>
 

@@ -31,6 +31,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-hero hover:shadow-golf text-primary-foreground font-semibold px-8 py-4 text-lg border-0"
+              onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
             >
               Start Searching Tee Times
             </Button>
@@ -38,6 +39,12 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-4 text-lg"
+              onClick={() => {
+                const featuresSection = document.getElementById('features');
+                if (featuresSection) {
+                  featuresSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
             >
               Learn More
             </Button>

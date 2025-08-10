@@ -13,7 +13,11 @@ const Navigation = () => {
             />
             <span className="text-xl font-bold text-primary">The Birdie Bookr</span>
           </div>
-          <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+          <Button 
+            variant="outline" 
+            className="border-primary text-primary  hover:bg-primary hover:text-primary-foreground"
+            onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
+          >
             Log In
           </Button>
         </div>
