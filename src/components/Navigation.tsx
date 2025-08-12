@@ -16,7 +16,7 @@ const Navigation = () => {
           <Button 
             variant="outline" 
             className="border-primary text-primary  hover:bg-primary hover:text-primary-foreground"
-            onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
+            onClick={() => window.location.href = 'https://app.thebirdiebookr.com/login'}
           >
             Log In
           </Button>

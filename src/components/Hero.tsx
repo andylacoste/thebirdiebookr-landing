@@ -31,7 +31,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-hero hover:shadow-golf text-primary-foreground font-semibold px-8 py-4 text-lg border-0"
-              onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
+              onClick={() => window.location.href = 'https://app.thebirdiebookr.com/login'}
             >
               Start Searching Tee Times
             </Button>

@@ -29,7 +29,7 @@ const Footer = () => {
                 <Button 
                   variant="link" 
                   className="text-background/80 hover:text-background p-0 h-auto"
-                  onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
+                  onClick={() => window.location.href = 'https://app.thebirdiebookr.com/login'}
                 >
                   Log In
                 </Button>
@@ -38,13 +38,16 @@ const Footer = () => {
                 <Button 
                   variant="link" 
                   className="text-background/80 hover:text-background p-0 h-auto"
-                  onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
+                  onClick={() => window.location.href = 'https://app.thebirdiebookr.com/register'}
                 >
                   Sign Up
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-background/80 hover:text-background p-0 h-auto">
+                <Button variant="link" 
+                className="text-background/80 hover:text-background p-0 h-auto"
+                onClick={() => window.location.href = 'https://app.thebirdiebookr.com'}
+                >
                   Contact
                 </Button>
               </li>
